@@ -1,1 +1,1 @@
-# EEG-Based-Video-Game-Controller
+# MindControl: An EEG-Based Video Game Controller
