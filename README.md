@@ -25,7 +25,7 @@ Afterward, simply install the Arduino IDE, and connect your Arduino to your PC. 
 
 ## Problems With Implementation
 
-Due to the MindFlex Duel headset only being a single-channel headset, the data is NOT accurate. 
+Due to the MindFlex Duel headset only being a single-channel headset, the data collected/calclulated is NOT accurate. 
 
 This is because based my formulas for Arousal, Valence, and Engagement on the formulas for these values made for the EMOTIV EPOC+, a multisensor headset.
 The original formulas for EPOC+ were created by Dr. McMahan, Dr. Ian Parberry, and Dr. Thomas Parsons, in this research [paper](https://doi.org/10.1016/j.promfg.2015.07.376).
