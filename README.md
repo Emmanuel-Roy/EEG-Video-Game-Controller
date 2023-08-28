@@ -23,7 +23,7 @@ In order to create the EEG headset used for this project, follow [this](https://
 
 Afterward, simply install the Arduino IDE, and connect your Arduino to your PC. Load the MindControl.ino in the MindControl folder and run the program.
 
-## Problems in Implementation
+## Problems With Implementation
 
 Due to the MindFlex Duel headset only being a single-channel headset, the data is NOT accurate. 
 
