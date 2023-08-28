@@ -11,7 +11,7 @@ In addition, it calculates the user's engagement level, which is useful to detec
 
 In order to create the EEG headset used for this project, follow [this](https://frontiernerds.com/brain-hack) tutorial created by Frontier Nerds, the creators of the Arduino Brain Library. 
 
-# Make sure to use the ARDUINO LEONARDO in order to send keyboard input back to the system connected.
+### Make sure to use the ARDUINO LEONARDO in order to send keyboard input back to the system connected.
 
 ## Problems in Implementation
 
