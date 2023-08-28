@@ -6,13 +6,14 @@
 MindControl is an Arduino Script that reads the brain wave data from a MindFlex Duel EEG Headset and outputs a keystroke in response to certain brain wave patterns. 
 It uses the Arduino brain library to get the Theta, Low Alpha, High Alpha, Low Beta, and High Beta brain wave bands to calculate a user's emotion depending on the two-dimensional valence-arousal model typically used in modern neuropsychology.
 
-In addition, it calculates the user's engagement level, which is useful to detect if a user wants to actually output a given keystroke at a given moment.
+In addition to valence and arousal, it also calculates the user's engagement level, which is useful to detect if a user wants to actually output a given keystroke at a given moment.
 After calculating these values, the program will then calculate what emotion a user is feeling. There are four emotions that are recognized for now (Enthusiastic, Nervous, Calm, and Disappointed).
 
 Now, there is a template function included in the program for the "Geometry Dash" video game. 
 When a user is "Enthusiastic" the "up arrow" on a simulated keyboard is "pressed" which causes the character in game to also jump.
 
-This program is meant to act as more of a template that can be applied to various games, and to change controls on a game by game basis you need to simply change what the "keyboard" outputs after a given emotion is detected.
+This program is meant to act as more of a template that can be applied to various games.
+In order to change controls on a game by game basis you need to simply change what the "keyboard" outputs after a given emotion is detected.
 
 ## Installation
 
