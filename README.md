@@ -27,5 +27,3 @@ Unfortunately, I do not have a strong enough background in Computational Neurops
 
 This project is currently complete. I could add more functions and perhaps more templates for the keystroke output, but I do not think I will be able to fix the issues that occur due to the single sensor. 
 If I ever purchase or receive a multisensor EEG, I have reason to believe that I will program a significantly more accurate version of this project.
-
-
