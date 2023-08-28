@@ -13,9 +13,19 @@ In order to create the EEG headset used for this project, follow [this](https://
 
 ### Make sure to use the ARDUINO LEONARDO in order to send keyboard input back to the system connected.
 
+Afterward, simply install the Arduino IDE, and connect your Arduino to your PC. Load the MindControl.ino in the MindControl folder and run the program.
+
 ## Problems in Implementation
 
+Due to the MindFlex Duel headset only being a single-channel headset, the data is NOT accurate. 
+This is because based my formulas for Arousal, Valence, and Engagement on the formulas for these values made for the EMOTIV EPOC+, a multisensor headset.
+The original formulas for EPOC+ were created by Dr. McMahan, Dr. Ian Parberry, and Dr. Thomas Parsons, in this [paper.](https://doi.org/10.1016/j.promfg.2015.07.376).
+As a result, I have reason to believe that the conversions I made between the multisensor data outputs from the EPOC+ to the single sensor data outputs by the MindFlex Duel used in this project are what are causing inaccurate results.
+Unfortunately, I do not have a strong enough background in Computational Neuropsychology to be able to fix these issues, and as such, they shall be left in their relatively inaccurate state.
 
 ## Project Status / Future Goals
+
+This project is currently complete. I could add more functions and perhaps more templates for the keystroke output, but I do not think I will be able to fix the issues that occur due to the single sensor. 
+If I ever purchase or receive a multisensor EEG, I have reason to believe that I will program a significantly more accurate version of this project.
 
 
